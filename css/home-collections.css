@@ -1,0 +1,36 @@
+/* Homepage collections — cream, botanical panels and natural product imagery. */
+.page-home h1,.page-home h2,.page-home h3,.page-home h4,.page-home h5,.page-home h6,.page-home .display,.page-home .display-italic{font-family:"Figtree",sans-serif!important}
+.sw-collections{padding:clamp(48px,4.2vw,80px) clamp(20px,3vw,58px) clamp(56px,4.2vw,80px);background:radial-gradient(ellipse at 50% 30%,#fffdf8 0%,#faf6ed 75%);color:#09271d}
+.sw-collections__inner{max-width:1800px;margin:auto}
+.sw-collections__heading{text-align:center;margin:0 auto clamp(28px,2vw,40px)}
+.sw-collections__ornament{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:16px}
+.sw-collections__ornament>span{height:2px;width:clamp(65px,6vw,112px);background:#d69b16}
+.sw-collections__ornament svg{width:54px;height:44px}
+.sw-collections__heading h2{font-size:clamp(36px,4vw,76px);font-weight:700;line-height:1.04;letter-spacing:-.035em;margin:0 0 16px;color:#09271d}
+.sw-collections__heading>p{font-size:clamp(16px,1.3vw,24px);line-height:1.5;color:#727667;margin:0}
+.sw-collections__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(28px,3vw,56px)}
+.sw-collection{position:relative;isolation:isolate;display:flex;align-items:center;min-width:0;min-height:350px;overflow:hidden;border:1px solid #e9dcc5;border-radius:19px;background:#f8eddb;color:#09271d;text-decoration:none;box-shadow:0 10px 22px #49371c0c;transition:box-shadow .25s ease,transform .25s ease}
+.sw-collection--home{border-color:#e0e3d7;background:#eef0e5}
+.sw-collection__photo{position:absolute;z-index:-2;inset:0;width:100%;height:100%;object-fit:cover;object-position:right center;transition:transform .6s ease}
+.sw-collection--food .sw-collection__photo{width:118%;max-width:none;left:-18%}
+.sw-collection__panel{position:absolute;z-index:-1;inset:0 auto 0 0;height:100%;width:59%;color:#f8eddb;filter:drop-shadow(12px 0 20px #f8eddb25)}
+.sw-collection--home .sw-collection__panel{color:#eff0e7}
+.sw-collection__content{padding:clamp(26px,2.1vw,42px);position:relative;z-index:1}
+.sw-collection__icon{display:grid;place-items:center;width:clamp(58px,4.7vw,88px);height:clamp(58px,4.7vw,88px);border-radius:50%;color:#fffdf4;background:#e9ac20;margin-bottom:5px}
+.sw-collection__icon svg{width:54%;height:54%}
+.sw-collection--home .sw-collection__icon{background:#638552}
+.sw-collection__content h3{font-size:clamp(42px,4vw,74px);font-weight:700;line-height:1.1;margin:0 0 12px;color:#09271d;letter-spacing:-.035em}
+.sw-collection__content p{font-size:clamp(16px,1.25vw,24px);line-height:1.4;margin:0 0 clamp(22px,1.6vw,32px);color:#68705d}
+.sw-collection__cta{display:inline-flex;align-items:center;justify-content:center;gap:16px;padding:17px clamp(20px,1.9vw,36px);border-radius:50px;background:#3c6530;color:#fff;font-size:clamp(14px,1.05vw,20px);font-weight:650;white-space:nowrap;transition:background .25s ease}
+.sw-collection__cta svg{width:22px;height:22px;transition:transform .25s ease}
+.sw-collection__leaf{position:absolute;bottom:-12px;left:43%;width:100px;height:120px;color:#e9ba534a;pointer-events:none;z-index:0}
+.sw-collection--home .sw-collection__leaf{color:#8ba77d3b}
+.sw-collection:hover{transform:translateY(-3px);box-shadow:0 16px 32px #49371c18}
+.sw-collection:hover .sw-collection__photo{transform:scale(1.035)}
+.sw-collection:hover .sw-collection__cta{background:#2e5225}
+.sw-collection:hover .sw-collection__cta svg{transform:translateX(4px)}
+.sw-collection:focus-visible{outline:3px solid #a87712;outline-offset:5px}
+@media(min-width:721px) and (max-width:1100px){.sw-collection{min-height:340px}.sw-collection__content{padding:22px}.sw-collection__content h3{font-size:43px}.sw-collection__content p{font-size:15px}.sw-collection__cta{padding:14px 18px;gap:10px}.sw-collection__panel{width:69%}}
+@media(max-width:720px){.sw-collections__grid{grid-template-columns:1fr}.sw-collections__heading h2{font-size:clamp(34px,7vw,48px)}.sw-collection{min-height:330px}.sw-collection__content{padding:24px}.sw-collection__content h3{font-size:clamp(42px,8vw,58px)}.sw-collection__panel{width:67%}.sw-collection__content p{font-size:16px}.sw-collection__cta{padding:15px 22px}.sw-collection__leaf{left:48%;width:80px}}
+@media(max-width:380px){.sw-collection__content{padding:20px}.sw-collection__content p{font-size:14px}.sw-collection__content h3{font-size:39px}.sw-collection__cta{font-size:13px;padding:14px 17px;gap:10px}.sw-collection__panel{width:74%}}
+@media(prefers-reduced-motion:reduce){.sw-collection,.sw-collection__photo,.sw-collection__cta,.sw-collection__cta svg{transition:none}.sw-collection:hover,.sw-collection:hover .sw-collection__photo,.sw-collection:hover .sw-collection__cta svg{transform:none}}

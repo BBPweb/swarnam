@@ -1,0 +1,39 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7ebd4"/>
+      <stop offset="100%" stop-color="#efe1ca"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8e7b2"/>
+      <stop offset="30%" stop-color="#d9af61"/>
+      <stop offset="70%" stop-color="#a66d27"/>
+      <stop offset="100%" stop-color="#704311"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg2)"/>
+  <g transform="translate(355 130)">
+    <circle cx="245" cy="245" r="170" fill="url(#gold)"/>
+    <circle cx="245" cy="245" r="144" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="4"/>
+    <circle cx="245" cy="245" r="121" fill="none" stroke="rgba(88,52,15,0.42)" stroke-width="2"/>
+    <g fill="#f6e6b2" font-family="Georgia, serif" font-size="32" font-weight="700" text-anchor="middle">
+      <text x="245" y="220">AGMARK</text>
+      <text x="245" y="270">APPROVED</text>
+    </g>
+    <path d="M245 130 L267 176 L317 180 L279 214 L290 264 L245 236 L200 264 L211 214 L173 180 L223 176 Z" fill="#f5d78a" opacity="0.75"/>
+  </g>
+  <g transform="translate(150 240)">
+    <g transform="translate(0 0) scale(1.2)">
+      <path d="M0 160 C30 75, 115 15, 180 18 C145 38, 118 64, 72 88 C52 98, 27 116, 0 160 Z" fill="#5d8d46"/>
+      <path d="M13 130 C54 62, 125 30, 175 40 C133 66, 92 92, 60 130 Z" fill="#7aa95f"/>
+      <path d="M75 136 C81 78, 104 42, 148 18 C144 64, 112 104, 75 136 Z" fill="#8bbd75"/>
+      <path d="M120 128 C126 82, 150 50, 182 28 C175 72, 150 102, 120 128 Z" fill="#a0cf86"/>
+    </g>
+    <g transform="translate(640 30) scale(1.35)">
+      <path d="M0 160 C30 75, 115 15, 180 18 C145 38, 118 64, 72 88 C52 98, 27 116, 0 160 Z" fill="#5d8d46"/>
+      <path d="M13 130 C54 62, 125 30, 175 40 C133 66, 92 92, 60 130 Z" fill="#7aa95f"/>
+      <path d="M75 136 C81 78, 104 42, 148 18 C144 64, 112 104, 75 136 Z" fill="#8bbd75"/>
+      <path d="M120 128 C126 82, 150 50, 182 28 C175 72, 150 102, 120 128 Z" fill="#a0cf86"/>
+    </g>
+  </g>
+</svg>

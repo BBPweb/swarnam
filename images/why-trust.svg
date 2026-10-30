@@ -1,0 +1,46 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4ead3"/>
+      <stop offset="100%" stop-color="#e8d3a6"/>
+    </linearGradient>
+    <radialGradient id="oil" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f7d68f"/>
+      <stop offset="50%" stop-color="#e3b85b"/>
+      <stop offset="100%" stop-color="#bb7f22"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg3)"/>
+  <g transform="translate(245 140)">
+    <ellipse cx="360" cy="360" rx="230" ry="120" fill="#d68a36" opacity="0.22"/>
+    <g transform="translate(180 90)">
+      <path d="M120 110 Q255 10 370 120 L365 340 Q220 410 104 342 Z" fill="#905824"/>
+      <path d="M160 130 Q250 40 332 130 L325 302 Q235 355 164 300 Z" fill="#b26d2a"/>
+      <path d="M238 66 C290 103, 330 151, 334 208 C280 235, 210 220, 160 185 C184 129, 212 96, 238 66 Z" fill="#f1d68d" opacity="0.9"/>
+      <path d="M172 186 C214 170, 271 174, 332 205 C302 297, 212 328, 148 286 C136 253, 147 214, 172 186 Z" fill="url(#oil)"/>
+      <path d="M202 196 C233 164, 290 170, 314 201" fill="none" stroke="#f7ebb3" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <g opacity="0.9">
+        <circle cx="100" cy="200" r="19" fill="#cc9c5c"/>
+        <circle cx="130" cy="235" r="15" fill="#d5ae6d"/>
+        <circle cx="170" cy="245" r="16" fill="#c98c4a"/>
+        <circle cx="304" cy="225" r="18" fill="#b97a35"/>
+        <circle cx="228" cy="302" r="16" fill="#d6a85d"/>
+        <circle cx="200" cy="128" r="14" fill="#d7af66"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(110 170)">
+    <g transform="translate(0 0) scale(1.2)">
+      <path d="M0 160 C30 75, 115 15, 180 18 C145 38, 118 64, 72 88 C52 98, 27 116, 0 160 Z" fill="#5d8d46"/>
+      <path d="M13 130 C54 62, 125 30, 175 40 C133 66, 92 92, 60 130 Z" fill="#7aa95f"/>
+      <path d="M75 136 C81 78, 104 42, 148 18 C144 64, 112 104, 75 136 Z" fill="#8bbd75"/>
+      <path d="M120 128 C126 82, 150 50, 182 28 C175 72, 150 102, 120 128 Z" fill="#a0cf86"/>
+    </g>
+    <g transform="translate(760 60) scale(1.3)">
+      <path d="M0 160 C30 75, 115 15, 180 18 C145 38, 118 64, 72 88 C52 98, 27 116, 0 160 Z" fill="#5d8d46"/>
+      <path d="M13 130 C54 62, 125 30, 175 40 C133 66, 92 92, 60 130 Z" fill="#7aa95f"/>
+      <path d="M75 136 C81 78, 104 42, 148 18 C144 64, 112 104, 75 136 Z" fill="#8bbd75"/>
+      <path d="M120 128 C126 82, 150 50, 182 28 C175 72, 150 102, 120 128 Z" fill="#a0cf86"/>
+    </g>
+  </g>
+</svg>
