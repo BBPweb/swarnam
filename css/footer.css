@@ -1,0 +1,36 @@
+/* Shared Swarnam footer. */
+.ref-footer .ref-wrap{width:100%;max-width:1240px;margin-inline:auto}
+footer.ref-footer{background:#fff;padding:40px max(5%,22px) 20px;color:#4d5549}
+.ref-footer-grid{display:grid;grid-template-columns:2.1fr 1fr 1fr 1.15fr;gap:42px;padding-bottom:40px}
+.ref-footer-brand img{width:175px;height:auto;margin-bottom:12px}
+.ref-footer-brand p{font-size:15px;line-height:1.6;max-width:360px;color:#5f655b}
+.ref-footer-grid h3{font-family:'Figtree',Arial,sans-serif!important;font-size:15px;letter-spacing:0;font-weight:700;color:#a37230;margin:6px 0 16px}
+.ref-footer-grid>div>a:not(:has(img)){display:block;font-size:15px;color:#5d6359;text-decoration:none;margin-bottom:8px}
+.ref-contact{border-left:1px solid #e6e4dd;padding-left:30px}.ref-contact p{font-size:15px;margin-bottom:12px}
+.ref-footer-bottom{border-top:1px solid #e7e4db;padding-top:18px;display:flex;justify-content:space-between;gap:20px;font-size:15px;color:#797e72}
+.ref-footer-bottom a{color:inherit;text-decoration:none}
+
+/* Compact white footer matching the supplied footer reference. */
+footer.ref-footer{padding:36px max(6%,24px) 18px;background:#fff;border-top:1px solid #f1eadf}
+.ref-footer .ref-footer-grid{grid-template-columns:2.25fr .85fr .85fr 1.15fr;gap:42px;align-items:start;padding-bottom:32px}
+.ref-footer .ref-footer-brand img{width:170px;height:auto;display:block;margin:0 0 14px}
+.ref-footer .ref-footer-brand p{font-size:15px;line-height:1.65;max-width:355px;color:#62645d;margin:0}
+.ref-footer .ref-footer-grid h3{font-family:'Figtree',Arial,sans-serif!important;font-size:15px;font-weight:700;letter-spacing:.035em;color:#ac772d;margin:7px 0 17px;line-height:1.3}
+.ref-footer-links{display:flex;flex-direction:column;align-items:flex-start}
+.ref-footer .ref-footer-links>a{font-size:15px;line-height:1.5;text-decoration:none;color:#66685f;margin-bottom:5px}
+.ref-footer .ref-footer-links>a:hover,.ref-footer .ref-contact>a:hover{color:#a8752d}
+.ref-footer .ref-contact{border-left:1px solid #e7e7df;padding-left:32px;min-width:0}
+.ref-footer .ref-contact .ref-contact-line{display:flex;align-items:center;gap:9px;font-size:15px;line-height:1.5;color:#62665d;text-decoration:none;margin:0 0 12px;overflow-wrap:anywhere}
+.ref-contact-line svg{width:14px;height:14px;flex-shrink:0;color:#314c35}
+.ref-socials{display:flex;align-items:center;gap:14px;margin-top:16px}
+.ref-socials>span{display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#fff;border:1px solid #eeeee7;box-shadow:0 2px 5px #1c30120a}
+.ref-socials svg{width:16px;height:16px}
+.ref-footer .ref-footer-bottom{border-top:1px solid #e6e7e0;padding-top:16px;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#85877d;font-size:15px}
+.ref-footer-bottom nav{display:flex;align-items:center;gap:0;flex-wrap:wrap}
+.ref-footer-bottom nav>*{font:inherit;color:#797e72;text-decoration:none;padding:0 19px;border-right:1px solid #d5d8cf;line-height:1.2}
+.ref-footer-bottom nav>*:last-child{border:0;padding-right:0}
+@media(max-width:1000px){.ref-footer .ref-footer-grid{gap:25px;grid-template-columns:1.7fr .8fr .8fr 1.2fr}.ref-footer .ref-contact{padding-left:20px}.ref-footer .ref-footer-brand img{width:145px}}
+@media(max-width:720px){footer.ref-footer{padding:30px 24px 20px}.ref-footer .ref-footer-grid{grid-template-columns:1fr 1fr;gap:26px;padding-bottom:28px}.ref-footer .ref-footer-brand{grid-column:1/-1}.ref-footer .ref-footer-brand p{max-width:400px}.ref-footer .ref-contact{border:0;padding:0;grid-column:1/-1}.ref-footer .ref-footer-grid h3{margin-top:0}.ref-footer .ref-footer-bottom{align-items:flex-start;flex-direction:column;gap:15px}.ref-footer-bottom nav>*:first-child{padding-left:0}}
+@media(max-width:720px){.ref-story-picture{clip-path:none}.ref-collection::before{right:35%;left:-25%}.ref-trust::before{opacity:.4}.ref-note{display:none}}
+
+.ref-footer{font-family:'Figtree',Arial,sans-serif}.ref-footer a:focus-visible{outline:2px solid #b58235;outline-offset:4px}.ref-footer .ref-footer-grid .ref-footer-links>a{display:block}

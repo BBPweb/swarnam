@@ -1,0 +1,69 @@
+/* Story page: reference-led heritage composition. */
+.story-reference{--sr-ink:#172018;--sr-amber:#a35d08;--sr-line:#e4d4b6;background:#fcfaf5;color:var(--sr-ink);font-family:'Figtree',Arial,sans-serif}
+.story-reference .sr-wrap{max-width:1200px;width:100%;margin:auto}
+.story-reference section{padding:34px max(8.4%,24px);position:relative;overflow:hidden}
+.story-reference h1,.story-reference h2,.story-reference h3{font-family:Georgia,'Times New Roman',serif!important;font-weight:400;letter-spacing:-.04em;color:#151a13}
+.story-reference h1{font-size:clamp(38px,4.5vw,64px);line-height:1.02;margin:0 0 18px}
+.story-reference h2{font-size:clamp(32px,3.8vw,53px);line-height:1.02;margin:0 0 18px}
+.story-reference h3{font-size:23px;line-height:1.15;margin:0 0 8px;font-weight:600;letter-spacing:-.03em}
+.story-reference em{font-style:normal;color:var(--sr-amber)}
+.story-reference p{font-size:16px;line-height:1.6;color:#3f4439;margin:0 0 16px}
+.sr-kicker,.sr-date{display:block;font-size:10px;font-weight:600;line-height:1.5;text-transform:uppercase;letter-spacing:.17em;color:#985c0b;margin-bottom:12px}
+.sr-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #08271c;background:#063a27;color:#fff;text-decoration:none;font-size:12px;font-weight:600;line-height:1.3;padding:14px 30px;border-radius:40px;transition:background .2s}
+.sr-button:hover{background:#1f593b}.sr-button:focus-visible{outline:2px solid #c59b4a;outline-offset:5px}
+.story-reference section.sr-hero{padding-top:62px;padding-bottom:50px;min-height:545px;background:linear-gradient(90deg,#fff4d8c9,transparent 75%),url('../images/flagship-field.png') center/cover}
+.sr-hero-layout{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:35px;min-height:425px}
+.sr-hero-copy{align-self:start;max-width:550px;position:relative;z-index:1}
+.sr-hero-copy .sr-kicker{color:#92520b;margin-bottom:16px}
+.story-reference p.sr-lead{font-size:17px;font-style:italic;margin-bottom:14px;color:#252e24}
+.sr-products{display:flex;align-items:flex-end;justify-content:center;height:410px;gap:0;padding-top:10px}
+.sr-products img{object-fit:contain;width:35%;height:92%;max-width:190px;filter:drop-shadow(5px 10px 9px #3b291c38);margin:0 -4px}
+.sr-products img:nth-child(2){height:100%;z-index:1}
+.story-reference section.sr-beginning{padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0;background:#fdfbf7;border-top:12px solid #fff}
+.sr-mill-image{min-height:450px;background:url('../images/periyar-heritage.png') center/cover;border-radius:0 145px 0 0;border-right:10px solid #d9b764;position:relative}
+.sr-mill-image::after{content:'';position:absolute;bottom:0;right:-30px;width:190px;height:150px;background:url('../assets/ginoil-herbsnew.png') center/contain no-repeat;pointer-events:none}
+.sr-beginning-copy{padding:42px max(8%,40px);align-self:center}
+.sr-beginning-copy p{max-width:530px}
+.sr-beginning-copy blockquote{display:flex;align-items:center;gap:20px;font:italic 21px/1.4 Georgia,serif;background:#f4ecd9;color:#a55b08;padding:18px 28px;border-radius:7px;margin-top:16px}
+.sr-beginning-copy blockquote span{font:70px/.6 Georgia,serif;margin-top:15px}
+.story-reference section.sr-generation{background:linear-gradient(90deg,#f0f2e5 0%,#f0f2e5e0 40%,transparent 70%),url('../images/story-sesame.png') right center/cover;padding-top:32px;padding-bottom:28px;min-height:295px}
+.sr-generation .sr-wrap>div{max-width:660px;width:64%}
+.sr-generation h2{margin-bottom:12px}.sr-generation p:last-child{margin-bottom:0}
+.story-reference section.sr-ecosystem{background:linear-gradient(#fdfaf3dd,#fdfaf3ed),url('../images/storyleft1.webp') right top/55% auto no-repeat;padding-top:38px;padding-bottom:26px}
+.sr-ecosystem .sr-intro{max-width:660px;margin-bottom:20px}
+.sr-company-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sr-company-grid article{border:1px solid #e7d7b8;background:#faf4e6a3;border-radius:8px;padding:24px 28px 20px}
+.sr-company-grid svg,.sr-values-grid svg{width:49px;height:49px;fill:none;stroke:#a66a13;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;display:block;margin-bottom:10px}
+.sr-company-grid h3{font-size:24px}.sr-company-grid p{margin:0;font-size:16px;line-height:1.45}
+.sr-chain{display:flex;align-items:center;justify-content:center;gap:25px;padding:22px 7%;margin-top:9px;background:#f3ead4;border:1px solid #eddfbd;border-radius:8px}
+.sr-chain>span{font-size:57px;line-height:1;color:#9c6412}.sr-chain p{max-width:890px;margin:0;font-size:16px}
+.story-reference section.sr-roots{min-height:350px;background:linear-gradient(90deg,transparent 34%,#fbf5e8 66%),url('../images/story-periyar.png') left center/cover;padding-block:30px}
+.sr-roots .sr-wrap>div{width:38%;margin-left:auto;position:relative}
+.sr-roots p{font-size:16px;margin-bottom:18px}
+.story-reference section.sr-journey{padding-top:28px;padding-bottom:30px;background:#fcfaf5;scroll-margin-top:80px}
+.sr-timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:30px}
+.sr-timeline article{position:relative;border-right:1px solid #dfccaa;padding:0 30px;display:flex;flex-direction:column;align-items:flex-start}
+.sr-timeline article:first-child{padding-left:14px}.sr-timeline article:last-child{border:0;padding-right:8px}
+.sr-timeline article::before{content:'';position:absolute;top:137px;left:0;right:0;border-top:1px dashed #c8a05e}
+.sr-timeline article:not(:last-child)::after{content:'';position:absolute;right:-5px;top:133px;width:9px;height:9px;background:#be8e28;border-radius:50%;border:1px solid #fff}
+.sr-timeline h3{font-size:23px;min-height:30px;margin-bottom:20px}
+.sr-timeline .sr-date{font-size:9px;margin-bottom:12px;position:relative}
+.sr-timeline img{position:relative;z-index:1;width:175px;height:125px;max-width:100%;object-fit:cover;border-radius:50%;margin-bottom:20px}
+.sr-timeline p{font-size:14px;line-height:1.65;margin:0}
+.story-reference section.sr-values{padding-top:20px;padding-bottom:20px}
+.sr-values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sr-values-grid article{display:flex;align-items:flex-start;gap:25px;background:#edf0e2;border-radius:8px;padding:25px}
+.sr-values-grid article:nth-child(2){background:#f6efdf}
+.sr-values-grid svg{width:52px;height:52px;flex-shrink:0;color:#34751f;stroke:currentColor;margin:0}
+.sr-values-grid article:nth-child(2) svg{color:#a36412}
+.sr-values-grid .sr-date{font-size:9px;margin-bottom:10px}
+.sr-values-grid h3{font-size:19px;margin-bottom:8px}
+.sr-values-grid p{font-size:12px;line-height:1.5;margin:0}
+.story-reference section.sr-closing{padding-top:48px;padding-bottom:55px;text-align:center;min-height:320px;background:linear-gradient(#1c31162e,#16200f52),url('../images/flagship-field.png') center 80%/cover}
+.sr-closing .sr-kicker{color:#fff8dc;margin-bottom:18px}
+.story-reference .sr-closing h2{font-size:clamp(36px,4.4vw,62px);color:#fff;font-weight:700;text-shadow:1px 2px 3px #15170f;margin-bottom:30px}
+.sr-closing .sr-button{background:#fff;color:#1b261a;border-color:#dcdccf;min-width:225px}
+@media(min-width:1600px){.sr-beginning-copy{padding-right:calc((100vw - 1200px)/2)}.sr-mill-image{min-height:490px}}
+@media(max-width:1000px){.story-reference section{padding-inline:6%}.sr-hero-layout{gap:20px}.story-reference section.sr-hero{min-height:480px;padding-top:45px;padding-bottom:30px}.sr-products{height:350px}.sr-hero-layout{min-height:390px}.sr-beginning-copy{padding:32px}.sr-mill-image{min-height:430px}.sr-generation .sr-wrap>div{width:67%}.sr-company-grid article{padding:20px}.sr-company-grid h3{font-size:20px}.sr-company-grid p{font-size:14px}.sr-timeline article{padding-inline:18px}.sr-timeline h3{font-size:20px}.sr-timeline img{height:105px}.sr-timeline article::before{top:127px}.sr-timeline article:not(:last-child)::after{top:123px}.sr-values-grid article{padding:20px 15px;gap:13px}.sr-values-grid svg{width:40px}}
+@media(max-width:700px){.story-reference section{padding:32px 24px}.story-reference h1{font-size:43px}.story-reference h2{font-size:35px}.story-reference p{font-size:15px}.sr-hero-layout{grid-template-columns:1fr;gap:10px}.sr-hero-copy{max-width:none}.story-reference section.sr-hero{padding:36px 24px 20px}.sr-products{height:280px;max-width:420px;width:100%;margin:auto}.sr-products img{width:32%}.story-reference section.sr-beginning{grid-template-columns:1fr}.sr-mill-image{min-height:340px;border-radius:0 100px 0 0}.sr-beginning-copy{padding:35px 24px}.sr-beginning-copy blockquote{font-size:19px}.story-reference section.sr-generation{background-position:65% center;background-image:linear-gradient(90deg,#f0f2e5fa,#f0f2e5e6),url('../images/story-sesame.png');min-height:0}.sr-generation .sr-wrap>div{width:100%;max-width:none}.sr-company-grid{grid-template-columns:1fr;gap:14px}.sr-company-grid article{padding:22px}.sr-company-grid h3{font-size:25px}.sr-company-grid p{font-size:15px}.sr-chain{padding:20px;gap:18px}.sr-chain p{font-size:14px}.sr-chain>span{font-size:42px}.story-reference section.sr-roots{background-image:linear-gradient(90deg,#fcf6e4d9,#fcf6e4f2),url('../images/story-periyar.png');min-height:0}.sr-roots .sr-wrap>div{width:100%;max-width:none}.sr-timeline{grid-template-columns:1fr 1fr;gap:28px 0}.sr-timeline article:nth-child(2){border:0}.sr-timeline article:nth-child(3){padding-left:14px}.sr-timeline h3{font-size:21px;min-height:47px}.sr-timeline img{height:110px;width:155px}.sr-timeline article::before,.sr-timeline article::after{display:none}.sr-timeline p{font-size:13px}.sr-values-grid{grid-template-columns:1fr;gap:14px}.sr-values-grid article{padding:24px;gap:24px}.sr-values-grid svg{width:48px}.sr-values-grid h3{font-size:23px}.sr-values-grid p{font-size:14px}.story-reference section.sr-closing{min-height:280px;padding-block:45px}.sr-closing h2{font-size:40px!important}}
+@media(prefers-reduced-motion:reduce){.sr-button{transition:none}}
