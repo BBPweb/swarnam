@@ -29,6 +29,7 @@
   const slidesWrap =
     hero.querySelector('.sw-slides') ||
     hero.querySelector('.sw-slider') ||
+    hero.querySelector('.sw-hero__cube') ||
     hero;
 
   /*
@@ -93,14 +94,13 @@
   =========================================
   */
 
-  const AUTOPLAY = 6800;
+  const AUTOPLAY = 4000;
   const CUBE_TIME = 950;
 
   let current = 0;
   let busy = false;
   let timer = null;
   let touchX = 0;
-  let pausedByHover = false;
 
   hero.style.setProperty('--duration', `${AUTOPLAY}ms`);
 
@@ -231,7 +231,7 @@
   function schedule() {
     stopAutoplay();
 
-    if (pausedByHover) return;
+    if (document.hidden || slides.length < 2) return;
 
     timer = setTimeout(() => {
       goTo(
@@ -248,7 +248,10 @@
   */
 
   function goTo(index, direction = 1) {
-    if (busy) return;
+    if (busy) {
+      schedule();
+      return;
+    }
 
     index =
       (index + slides.length) %
@@ -334,27 +337,6 @@
       goTo(current - 1, -1);
     });
   }
-
-  /*
-  =========================================
-  PAUSE ON HOVER
-  =========================================
-  */
-
-  hero.addEventListener('mouseenter', () => {
-    pausedByHover = true;
-    stopAutoplay();
-  });
-
-  hero.addEventListener('mouseleave', () => {
-    pausedByHover = false;
-
-    slides.forEach(slide => {
-      resetParallax(slide);
-    });
-
-    schedule();
-  });
 
   /*
   =========================================
