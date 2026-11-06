@@ -13,10 +13,7 @@
 }
 
 .business-strengths__heading {
-  display: grid;
-  grid-template-columns: minmax(230px, 0.26fr) minmax(0, 1fr);
-  align-items: center;
-  gap: clamp(24px, 3vw, 48px);
+  display: block;
   margin-bottom: clamp(42px, 5vw, 68px);
 }
 
@@ -42,8 +39,8 @@
 
 .business-strengths__heading h2 {
   margin: 0;
-  padding-left: clamp(26px, 3vw, 42px);
-  border-left: 1px solid #e8c68b;
+  padding: 0;
+  border: 0;
   color: #201d1a;
   font: 700 clamp(36px, 4vw, 60px)/1.08 'Merriweather', Georgia, serif !important;
   letter-spacing: -.045em;
@@ -155,10 +152,6 @@
 }
 
 @media (max-width: 900px) {
-  .business-strengths__heading {
-    grid-template-columns: minmax(160px, .34fr) minmax(0, 1fr);
-  }
-
   .business-strengths__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     row-gap: 28px;
@@ -183,8 +176,6 @@
   }
 
   .business-strengths__heading {
-    grid-template-columns: 1fr;
-    gap: 22px;
     margin-bottom: 36px;
   }
 

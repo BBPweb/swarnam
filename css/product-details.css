@@ -166,6 +166,14 @@
   margin-bottom: 38px;
 }
 
+.product-detail-page .section-head.section-head--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.product-detail-page .section-head--single .right {
+  grid-column: 1;
+}
+
 .product-detail-page .section-head .right h2 {
   color: #203d2d;
   font-size: clamp(32px, 4vw, 52px);

@@ -573,6 +573,14 @@ h1 {
     color: var(--amber-deep);
     /*font-variation-settings: 'opsz' 100, 'wght' 350, 'SOFT' 100;*/
   }
+
+  .section-head--single {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .section-head--single .right {
+    grid-column: 1;
+  }
 em{
     font-style:normal !important;
 }
