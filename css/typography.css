@@ -1,0 +1,63 @@
+body,
+body * {
+  font-family: "Figtree", Arial, sans-serif !important;
+}
+
+body {
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+body h1,
+body h2,
+body .display {
+  font-weight: 400 !important;
+}
+
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-weight: 600 !important;
+}
+
+body p,
+body li,
+body label,
+body input,
+body textarea,
+body select {
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+body a,
+body button,
+body .eyebrow,
+body .ref-kicker,
+body .sr-kicker,
+body .sr-date,
+body .sw-v4-tag {
+  font-weight: 600 !important;
+}
+
+body strong,
+body b {
+  font-weight: 700 !important;
+}
+
+body em,
+body i {
+  font-style: normal !important;
+}
+
+body .display-italic,
+body .story-lead,
+body .story-highlight,
+body .ref-lead,
+body .sr-lead,
+body blockquote,
+body.home-reference .ref-story-copy p.ref-lead {
+  font-style: italic !important;
+  font-weight: 600 !important;
+}
