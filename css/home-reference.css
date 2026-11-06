@@ -47,6 +47,7 @@
 .ref-bottle{height:420px;display:flex;align-items:flex-end;justify-content:center}
 .ref-bottle img{height:100%;max-width:100%;object-fit:contain;filter:drop-shadow(8px 14px 14px #543b2633)}
 .ref-flagship-copy{align-self:start;padding-top:6px}
+.ref-flagship-copy>.ref-kicker,.ref-flagship-copy>h2{max-width:400px;margin-left:auto}
 .ref-flagship-copy h2{font-size:clamp(30px,3vw,45px)!important}
 .ref-flagship-detail{max-width:420px;margin-left:auto}
 .ref-flagship-detail p{font-size:14px!important;color:#484e37!important}
