@@ -2,7 +2,7 @@
 .story-reference{--sr-ink:#172018;--sr-amber:#a35d08;--sr-line:#e4d4b6;background:#fcfaf5;color:var(--sr-ink);font-family:'Figtree',Arial,sans-serif}
 .story-reference .sr-wrap{max-width:1200px;width:100%;margin:auto}
 .story-reference section{padding:34px max(8.4%,24px);position:relative;overflow:hidden}
-.story-reference h1,.story-reference h2,.story-reference h3{font-family:Georgia,'Times New Roman',serif!important;font-weight:400;letter-spacing:-.04em;color:#151a13}
+.story-reference h1,.story-reference h2,.story-reference h3{font-family:'Figtree',Arial,sans-serif!important;font-weight:400;letter-spacing:-.04em;color:#151a13}
 .story-reference h1{font-size:clamp(38px,4.5vw,64px);line-height:1.02;margin:0 0 18px}
 .story-reference h2{font-size:clamp(32px,3.8vw,53px);line-height:1.02;margin:0 0 18px}
 .story-reference h3{font-size:23px;line-height:1.15;margin:0 0 8px;font-weight:600;letter-spacing:-.03em}
