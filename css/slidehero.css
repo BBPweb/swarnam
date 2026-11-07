@@ -159,7 +159,7 @@ body{font-family:Arial,Helvetica,sans-serif}
   50%{margin-top:-16px;filter:drop-shadow(0 42px 34px rgba(0,0,0,.22))}
 }
 
-.sw-float--food{width:min(32vw,600px);right:2%;bottom:4%}
+.sw-float--food{width:min(26vw,600px);right:5%;bottom:30%}
 .sw-float--herbs{    width: min(20vw, 660px);
     right: 24%;
     bottom: -9%;}
