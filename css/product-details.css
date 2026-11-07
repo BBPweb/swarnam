@@ -237,23 +237,316 @@ padding:3%;
   min-height: 180px;
 }
 
-.product-detail-page .faq-list {
+.product-detail-page > section.sw-detail-hero + section {
+  position: relative;
+  padding: clamp(58px, 7vw, 88px) 24px !important;
+  background:
+    radial-gradient(ellipse at 100% 0, rgba(181, 124, 48, .09), transparent 38%),
+    #fbf8f0 !important;
+}
+
+.product-detail-page > section.sw-detail-hero + section > .container,
+.product-detail-page > section.sw-detail-hero + section + section > .container {
+  max-width: 1160px;
+}
+
+.product-detail-page > section.sw-detail-hero + section .section-head {
+  max-width: 850px;
+  margin: 0 0 34px;
+}
+
+.product-detail-page > section.sw-detail-hero + section .section-head .right h2,
+.product-detail-page > section.sw-detail-hero + section + section .section-head .right h2 {
+  margin-bottom: 16px;
+  font-weight: 400;
+  letter-spacing: -.045em;
+}
+
+.product-detail-page > section.sw-detail-hero + section .section-head .right h2 em,
+.product-detail-page > section.sw-detail-hero + section + section .section-head .right h2 em {
+  color: #a3651d;
+}
+
+.product-detail-page > section.sw-detail-hero + section .section-head .right p,
+.product-detail-page > section.sw-detail-hero + section + section .section-head .right p {
+  max-width: 680px !important;
+  margin: 0 !important;
+  color: #55584e;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.product-detail-page > section.sw-detail-hero + section .pillars-grid,
+.product-detail-page > section.sw-detail-hero + section + section .pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.product-detail-page > section.sw-detail-hero + section .pillar,
+.product-detail-page > section.sw-detail-hero + section + section .pillar {
+  min-width: 0;
+  min-height: 220px;
+  padding: 25px 22px;
+  border: 1px solid #e8dfcb;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 8px 22px rgba(34, 54, 38, .05);
+}
+
+.product-detail-page > section.sw-detail-hero + section .pillar::before,
+.product-detail-page > section.sw-detail-hero + section + section .pillar::before {
+  position: absolute;
+  inset: 0 auto auto 22px;
+  width: 38px;
+  height: 3px;
+  border-radius: 0 0 3px 3px;
+  background: #b57c30;
+  content: "";
+}
+
+.product-detail-page > section.sw-detail-hero + section .pillar .num,
+.product-detail-page > section.sw-detail-hero + section + section .pillar .num {
+  width: 38px;
+  height: 38px;
+  margin: 5px 0 18px;
+  background: #edf1e8;
+  color: #194e27;
+}
+
+.product-detail-page > section.sw-detail-hero + section .pillar h4,
+.product-detail-page > section.sw-detail-hero + section + section .pillar h4 {
+  margin-bottom: 10px;
+  color: #203d2d;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.product-detail-page > section.sw-detail-hero + section .pillar p,
+.product-detail-page > section.sw-detail-hero + section + section .pillar p {
+  color: #55584e;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.product-detail-page > section.sw-detail-hero + section + section {
+  position: relative;
+  padding: clamp(58px, 7vw, 88px) 24px !important;
+  background:
+    radial-gradient(ellipse at 0 100%, rgba(181, 124, 48, .1), transparent 42%),
+    #f1f3eb !important;
+}
+
+.product-detail-page > section.sw-detail-hero + section + section .section-head {
+  max-width: 850px;
+  margin: 0 0 34px;
+}
+
+.product-detail-page > section.sw-detail-hero + section + section .pillar {
+  background: #fff;
+  border-color: #e0e5d9;
+}
+
+.product-detail-page > section.sw-detail-hero + section + section .pillar::before {
+  background: #194e27;
+}
+
+.product-detail-page > section.sw-detail-hero + section + section .container > .pillars-grid + div {
+  position: relative;
+  max-width: 900px !important;
+  margin: 34px 0 0 !important;
+  padding: 25px 30px !important;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-left: 4px solid #d5a649 !important;
+  border-radius: 0 12px 12px 0;
+  background: #194e27 !important;
+  box-shadow: 0 14px 30px rgba(25, 78, 39, .13);
+}
+
+.product-detail-page > section.sw-detail-hero + section + section .container > .pillars-grid + div p {
+  margin: 0 !important;
+  color: #fff8e9 !important;
+  font-family: 'Figtree', Arial, sans-serif !important;
+  font-size: clamp(16px, 1.7vw, 20px) !important;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.65 !important;
+}
+
+@media (max-width: 1000px) {
+  .product-detail-page > section.sw-detail-hero + section .pillars-grid,
+  .product-detail-page > section.sw-detail-hero + section + section .pillars-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .product-detail-page > section.sw-detail-hero + section,
+  .product-detail-page > section.sw-detail-hero + section + section {
+    padding: 48px 20px !important;
+  }
+
+  .product-detail-page > section.sw-detail-hero + section .section-head,
+  .product-detail-page > section.sw-detail-hero + section + section .section-head {
+    margin-bottom: 26px;
+  }
+
+  .product-detail-page > section.sw-detail-hero + section .pillars-grid,
+  .product-detail-page > section.sw-detail-hero + section + section .pillars-grid {
+    gap: 13px;
+  }
+
+  .product-detail-page > section.sw-detail-hero + section .pillar,
+  .product-detail-page > section.sw-detail-hero + section + section .pillar {
+    min-height: 0;
+    padding: 21px 17px;
+  }
+
+  .product-detail-page > section.sw-detail-hero + section .container > .pillars-grid + div,
+  .product-detail-page > section.sw-detail-hero + section + section .container > .pillars-grid + div {
+    padding: 21px !important;
+  }
+}
+
+.product-detail-page > section.product-faq {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(58px, 7vw, 94px) 24px !important;
+  background:
+    radial-gradient(ellipse at 8% 0, rgba(181, 124, 48, .09), transparent 38%),
+    #fbf8f0 !important;
+}
+
+.product-detail-page .product-faq > .container {
+  max-width: 1040px;
+}
+
+.product-detail-page .product-faq .section-head {
+  max-width: 760px;
+  margin: 0 auto 34px;
+  text-align: center;
+}
+
+.product-detail-page .product-faq .section-head .right h2 {
+  margin-bottom: 16px;
+  font-weight: 400;
+  letter-spacing: -.045em;
+}
+
+.product-detail-page .product-faq .section-head .right h2 em {
+  color: #a3651d;
+}
+
+.product-detail-page .product-faq .section-head .right p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #55584e;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.product-detail-page .product-faq .faq-list {
+  display: grid;
   max-width: 900px;
+  gap: 12px;
+  margin: 0 auto;
 }
 
-.product-detail-page .faq-item {
-  border-bottom: 1px solid #e4dfd1;
+.product-detail-page .product-faq .faq-item {
+  overflow: hidden;
+  border: 1px solid #e8dfcb;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .88);
+  box-shadow: 0 6px 18px rgba(34, 54, 38, .045);
+  transition: border-color .2s ease, box-shadow .2s ease;
 }
 
-.product-detail-page .faq-item summary {
-  padding: 20px 4px;
-  color: #294733;
-  font-weight: 700;
+.product-detail-page .product-faq .faq-item:hover,
+.product-detail-page .product-faq .faq-item[open] {
+  border-color: #cfb47d;
+  box-shadow: 0 12px 26px rgba(34, 54, 38, .08);
 }
 
-.product-detail-page .faq-item p {
-  color: var(--detail-muted);
-  line-height: 1.75;
+.product-detail-page .product-faq .faq-item summary {
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 22px;
+  color: #203d2d;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.45;
+  list-style: none;
+  cursor: pointer;
+}
+
+.product-detail-page .product-faq .faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.product-detail-page .product-faq .faq-item summary::after {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  place-items: center;
+  border-radius: 50%;
+  background: #edf1e8;
+  color: #194e27;
+  content: "+";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.product-detail-page .product-faq .faq-item[open] summary::after {
+  transform: rotate(45deg);
+  background: #194e27;
+  color: #fff;
+}
+
+.product-detail-page .product-faq .faq-item summary:focus-visible {
+  outline: 2px solid #b57c30;
+  outline-offset: -4px;
+}
+
+.product-detail-page .product-faq .faq-item p {
+  max-width: none;
+  margin: 0;
+  padding: 0 74px 22px 22px;
+  color: #55584e;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .product-detail-page > section.product-faq.product-faq {
+    padding: 48px 20px !important;
+  }
+
+  .product-detail-page .product-faq .section-head {
+    margin-bottom: 26px;
+    text-align: left;
+  }
+
+  .product-detail-page .product-faq .section-head .right p {
+    margin-left: 0;
+  }
+
+  .product-detail-page .product-faq .faq-item summary {
+    min-height: 64px;
+    gap: 12px;
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .product-detail-page .product-faq .faq-item p {
+    padding: 0 58px 18px 16px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 800px) {
