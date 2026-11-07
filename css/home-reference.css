@@ -229,7 +229,9 @@
 }
 
 .ref-collection-copy {
-    padding: 28px 30px
+    padding: 28px 30px;
+    width:65%;
+
 }
 
 .ref-round {
