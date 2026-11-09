@@ -359,7 +359,7 @@
     padding-top: 38px;
     padding-bottom: 35px;
     min-height: 490px;
-    background: linear-gradient(90deg, transparent 32%, #fff4d369 50%, #fff4d3d9 100%), url('../images/flagship-field.png') center/cover
+    background: url('../images/signature-gingelly.jpg') center/cover
 }
 
 .ref-flagship-grid {
@@ -377,10 +377,7 @@
 }
 
 .ref-bottle img {
-    height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    filter: drop-shadow(8px 14px 14px #543b2633)
+    display: none
 }
 
 .ref-flagship-copy {
@@ -830,7 +827,7 @@
     }
 
     .home-reference section.ref-flagship {
-        background-position: 35% center
+        background-position: left center
     }
 
     .ref-flagship-grid {
@@ -838,10 +835,7 @@
     }
 
     .ref-bottle {
-        height: 300px;
-        justify-content: flex-start;
-        padding-left: 18%;
-        order: 2
+        display: none
     }
 
     .ref-flagship-copy {
