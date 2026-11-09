@@ -601,7 +601,7 @@
 }
 
 .home-reference footer.ref-footer {
-    background: #fff;
+    background: #f4efe4;
     padding: 40px max(5%, 22px) 20px;
     color: #4d5549
 }
@@ -1106,11 +1106,11 @@
     margin-right: 8px
 }
 
-/* Compact white footer matching the supplied footer reference. */
+/* Warm cream footer matching the Swarnam palette. */
 .home-reference footer.ref-footer {
     padding: 36px max(6%, 24px) 18px;
-    background: #fff;
-    border-top: 1px solid #f1eadf
+    background: #f4efe4;
+    border-top: 1px solid #e8dfcf
 }
 
 .ref-footer .ref-footer-grid {
