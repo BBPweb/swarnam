@@ -103,7 +103,7 @@
     padding-top: 62px;
     padding-bottom: 50px;
     min-height: 545px;
-    background: linear-gradient(90deg, #fff4d8c9, transparent 75%), url('../images/ourstoryhero.jpg') center/cover
+    background: linear-gradient(90deg,  #fff4d8, transparent 75%), url('../images/ourstoryhero.jpg') center/cover
 }
 
 .sr-hero-layout {
@@ -157,7 +157,7 @@
 }
 
 .story-reference section.sr-beginning {
-    padding: 0;
+    padding: 60px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
@@ -166,14 +166,14 @@
 }
 
 .sr-mill-image {
-    min-height: 450px;
-    background: url('../images/stry12.webp') center/cover;
-    border-radius: 0 145px 0 0;
-    border-right: 10px solid #d9b764;
+    /* min-height: 450px; */
+    background: url('../images/stry12.webp') center/contain no-repeat;
+    /* border-radius: 0 145px 0 0; */
+    /* border-right: 10px solid #d9b764; */
     position: relative
 }
 
-.sr-mill-image::after {
+/* .sr-mill-image::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -182,10 +182,10 @@
     height: 150px;
     background: url('../assets/ginoil-herbsnew.png') center/contain no-repeat;
     pointer-events: none
-}
+} */
 
 .sr-beginning-copy {
-    padding: 64px max(8%, 40px);
+    padding: 0px max(8%, 40px);
     align-self: center
 }
 
@@ -334,7 +334,7 @@
 
 .sr-timeline article {
     position: relative;
-    border-right: 1px solid #dfccaa;
+    /* border-right: 1px solid #dfccaa; */
     padding: 0 30px;
     display: flex;
     flex-direction: column;

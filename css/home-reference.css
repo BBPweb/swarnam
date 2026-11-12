@@ -280,7 +280,7 @@
 
 .ref-story-picture {
     background: url('../images/stry12.webp') center/cover;
-    border-radius: 0 85px 0 0;
+    /* border-radius: 0 55px 0 0; */
     min-height: 510px;
     position: relative
 }
@@ -396,8 +396,9 @@
 }
 
 .ref-flagship-detail {
-    max-width: 420px;
-    margin-left: auto
+    /* max-width: 420px;
+    margin-left: auto */
+    margin:0 auto;
 }
 
 .ref-flagship-detail p {
@@ -996,9 +997,9 @@
         margin-bottom: 18px
     }
 
-    .ref-flagship-detail {
+    /* .ref-flagship-detail {
         max-width: 400px
-    }
+    } */
 
     .home-reference section.ref-partners {
         padding-top: 45px;
