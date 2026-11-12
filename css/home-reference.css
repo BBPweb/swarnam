@@ -288,7 +288,7 @@
 .ref-story-copy {
     padding: 48px max(8%, 32px);
     position: relative;
-    background: linear-gradient(0deg, #ffffffa8, #fff 60%), url('../images/banksofperiyar.jpeg') right bottom/75% auto no-repeat
+    /* background: linear-gradient(0deg, #ffffffa8, #fff 60%), url('../images/banksofperiyar.jpeg') right bottom/75% auto no-repeat */
 }
 
 .ref-story-copy h2 {
