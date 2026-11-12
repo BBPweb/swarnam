@@ -28,6 +28,10 @@
     margin: 0 0 22px
 }
 
+body.home-reference .sw-copy h2 {
+    font-family: 'Gelasio', Georgia, serif !important
+}
+
 .home-reference section[class^="ref-"] h3 {
     font-family: 'Figtree', Arial, sans-serif !important;
     letter-spacing: -.035em;
