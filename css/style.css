@@ -16,7 +16,9 @@
 
 
 
-
+main#page-home {
+    background: #fbf8f0;
+}
 
 h1 { 
    font-family: 'Figtree', sans-serif;

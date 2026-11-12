@@ -96,7 +96,7 @@
     grid-template-columns: repeat(4, 1fr);
     max-width: 1360px;
     margin: auto;
-    padding: 26px 5%;
+    padding: 50px 5%;
     background: #fcfaf4
 }
 
@@ -929,8 +929,8 @@
     }
 
     .home-reference section.ref-collections {
-        padding-top: 44px;
-        padding-bottom: 48px
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .ref-collections-heading .ref-kicker {
@@ -973,8 +973,8 @@
     }
 
     .home-reference section.ref-trust {
-        padding-top: 38px;
-        padding-bottom: 38px
+        padding-top: 60px;
+        padding-bottom: 60px
     }
 
     .ref-trust-grid img {
