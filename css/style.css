@@ -528,8 +528,42 @@ h1 {
 
   /* ============ SECTIONS GENERIC ============ */
   section {
-    padding: clamp(4rem, 8vw, 7rem) var(--gutter);
+    padding: clamp(4.5rem, 8.5vw, 7.5rem) var(--gutter);
     position: relative;
+  }
+
+  .sw-v4-page .sw-v4-hero {
+    padding: 42px 0 62px;
+  }
+
+  .sw-v4-page .sw-v4-browse {
+    padding: 64px 0 104px;
+  }
+
+  .sw-v4-page .sw-v4-grid {
+    gap: 30px;
+  }
+
+  .sw-v4-page .sw-v4-card-body {
+    padding: 27px;
+  }
+
+  @media (max-width: 720px) {
+    .sw-v4-page .sw-v4-hero {
+      padding: 20px 0 42px;
+    }
+
+    .sw-v4-page .sw-v4-browse {
+      padding: 52px 0 72px;
+    }
+
+    .sw-v4-page .sw-v4-grid {
+      gap: 18px;
+    }
+
+    .sw-v4-page .sw-v4-card-body {
+      padding: 19px;
+    }
   }
 
   .container {
@@ -538,7 +572,7 @@ h1 {
   }
 
   .section-head {
-    margin-bottom: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: clamp(2.75rem, 5.25vw, 4.25rem);
     display: grid;
     grid-template-columns: minmax(140px, 1fr) 3fr;
     gap: clamp(1.5rem, 4vw, 4rem);
