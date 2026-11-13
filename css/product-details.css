@@ -158,7 +158,7 @@ padding:3%;
   max-width: 760px;
 }
 
-.product-detail-page > section:not(.sw-detail-hero) {
+:is(.product-detail-page > section, .product-detail-page > main > section):not(.sw-detail-hero) {
   padding: clamp(64px, 7.5vw, 104px) 0 !important;
 }
 
@@ -237,7 +237,7 @@ padding:3%;
   min-height: 180px;
 }
 
-.product-detail-page > section.sw-detail-hero + section {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section {
   position: relative;
   padding: clamp(64px, 7.5vw, 98px) 24px !important;
   background:
@@ -245,30 +245,30 @@ padding:3%;
     #fbf8f0 !important;
 }
 
-.product-detail-page > section.sw-detail-hero + section > .container,
-.product-detail-page > section.sw-detail-hero + section + section > .container {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section > .container,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section > .container {
   max-width: 1160px;
 }
 
-.product-detail-page > section.sw-detail-hero + section .section-head {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .section-head {
   max-width: 850px;
   margin: 0 0 40px;
 }
 
-.product-detail-page > section.sw-detail-hero + section .section-head .right h2,
-.product-detail-page > section.sw-detail-hero + section + section .section-head .right h2 {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .section-head .right h2,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .section-head .right h2 {
   margin-bottom: 16px;
   font-weight: 400;
   letter-spacing: -.045em;
 }
 
-.product-detail-page > section.sw-detail-hero + section .section-head .right h2 em,
-.product-detail-page > section.sw-detail-hero + section + section .section-head .right h2 em {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .section-head .right h2 em,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .section-head .right h2 em {
   color: #a3651d;
 }
 
-.product-detail-page > section.sw-detail-hero + section .section-head .right p,
-.product-detail-page > section.sw-detail-hero + section + section .section-head .right p {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .section-head .right p,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .section-head .right p {
   max-width: 680px !important;
   margin: 0 !important;
   color: #55584e;
@@ -276,15 +276,15 @@ padding:3%;
   line-height: 1.65;
 }
 
-.product-detail-page > section.sw-detail-hero + section .pillars-grid,
-.product-detail-page > section.sw-detail-hero + section + section .pillars-grid {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillars-grid,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillars-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
 }
 
-.product-detail-page > section.sw-detail-hero + section .pillar,
-.product-detail-page > section.sw-detail-hero + section + section .pillar {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillar,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar {
   min-width: 0;
   min-height: 220px;
   padding: 25px 22px;
@@ -294,8 +294,8 @@ padding:3%;
   box-shadow: 0 8px 22px rgba(34, 54, 38, .05);
 }
 
-.product-detail-page > section.sw-detail-hero + section .pillar::before,
-.product-detail-page > section.sw-detail-hero + section + section .pillar::before {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillar::before,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar::before {
   position: absolute;
   inset: 0 auto auto 22px;
   width: 38px;
@@ -305,8 +305,8 @@ padding:3%;
   content: "";
 }
 
-.product-detail-page > section.sw-detail-hero + section .pillar .num,
-.product-detail-page > section.sw-detail-hero + section + section .pillar .num {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillar .num,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar .num {
   width: 38px;
   height: 38px;
   margin: 5px 0 18px;
@@ -314,22 +314,22 @@ padding:3%;
   color: #194e27;
 }
 
-.product-detail-page > section.sw-detail-hero + section .pillar h4,
-.product-detail-page > section.sw-detail-hero + section + section .pillar h4 {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillar h4,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar h4 {
   margin-bottom: 10px;
   color: #203d2d;
   font-size: 18px;
   line-height: 1.25;
 }
 
-.product-detail-page > section.sw-detail-hero + section .pillar p,
-.product-detail-page > section.sw-detail-hero + section + section .pillar p {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillar p,
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar p {
   color: #55584e;
   font-size: 14px;
   line-height: 1.65;
 }
 
-.product-detail-page > section.sw-detail-hero + section + section {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section {
   position: relative;
   padding: clamp(64px, 7.5vw, 98px) 24px !important;
   background:
@@ -337,21 +337,21 @@ padding:3%;
     #f1f3eb !important;
 }
 
-.product-detail-page > section.sw-detail-hero + section + section .section-head {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .section-head {
   max-width: 850px;
   margin: 0 0 40px;
 }
 
-.product-detail-page > section.sw-detail-hero + section + section .pillar {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar {
   background: #fff;
   border-color: #e0e5d9;
 }
 
-.product-detail-page > section.sw-detail-hero + section + section .pillar::before {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar::before {
   background: #194e27;
 }
 
-.product-detail-page > section.sw-detail-hero + section + section .container > .pillars-grid + div {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .container > .pillars-grid + div {
   position: relative;
   max-width: 900px !important;
   margin: 34px 0 0 !important;
@@ -363,7 +363,7 @@ padding:3%;
   box-shadow: 0 14px 30px rgba(25, 78, 39, .13);
 }
 
-.product-detail-page > section.sw-detail-hero + section + section .container > .pillars-grid + div p {
+:is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .container > .pillars-grid + div p {
   margin: 0 !important;
   color: #fff8e9 !important;
   font-family: 'Figtree', Arial, sans-serif !important;
@@ -374,41 +374,41 @@ padding:3%;
 }
 
 @media (max-width: 1000px) {
-  .product-detail-page > section.sw-detail-hero + section .pillars-grid,
-  .product-detail-page > section.sw-detail-hero + section + section .pillars-grid {
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillars-grid,
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillars-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 700px) {
-  .product-detail-page > section.sw-detail-hero + section,
-  .product-detail-page > section.sw-detail-hero + section + section {
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section,
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section {
     padding: 52px 20px !important;
   }
 
-  .product-detail-page > section.sw-detail-hero + section .section-head,
-  .product-detail-page > section.sw-detail-hero + section + section .section-head {
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .section-head,
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .section-head {
     margin-bottom: 30px;
   }
 
-  .product-detail-page > section.sw-detail-hero + section .pillars-grid,
-  .product-detail-page > section.sw-detail-hero + section + section .pillars-grid {
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillars-grid,
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillars-grid {
     gap: 16px;
   }
 
-  .product-detail-page > section.sw-detail-hero + section .pillar,
-  .product-detail-page > section.sw-detail-hero + section + section .pillar {
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .pillar,
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .pillar {
     min-height: 0;
     padding: 21px 17px;
   }
 
-  .product-detail-page > section.sw-detail-hero + section .container > .pillars-grid + div,
-  .product-detail-page > section.sw-detail-hero + section + section .container > .pillars-grid + div {
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section .container > .pillars-grid + div,
+  :is(.product-detail-page > section, .product-detail-page > main > section).sw-detail-hero + section + section .container > .pillars-grid + div {
     padding: 21px !important;
   }
 }
 
-.product-detail-page > section.product-faq {
+:is(.product-detail-page > section, .product-detail-page > main > section).product-faq {
   position: relative;
   overflow: hidden;
   padding: clamp(64px, 7.5vw, 104px) 24px !important;
@@ -523,7 +523,7 @@ padding:3%;
 }
 
 @media (max-width: 700px) {
-  .product-detail-page > section.product-faq.product-faq {
+  :is(.product-detail-page > section, .product-detail-page > main > section).product-faq.product-faq {
     padding: 52px 20px !important;
   }
 
@@ -598,7 +598,7 @@ padding:3%;
     justify-content: center;
   }
 
-  .product-detail-page > section:not(.sw-detail-hero) {
+  :is(.product-detail-page > section, .product-detail-page > main > section):not(.sw-detail-hero) {
     padding: 56px 0 !important;
   }
 
@@ -614,4 +614,49 @@ padding:3%;
   .product-detail-page .pillar {
     transition: none;
   }
+}
+
+.product-detail-page .featured-visual.product-visual {
+  display: grid;
+  overflow: hidden;
+  place-items: center;
+  background:
+    radial-gradient(ellipse at 50% 42%, rgba(255, 255, 255, .98) 0%, rgba(249, 246, 235, .94) 49%, rgba(227, 216, 193, .78) 100%) !important;
+}
+
+.product-detail-page .product-visual-label {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: min(74%, 350px);
+  min-height: 72%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 32px;
+  border: 1px solid rgba(168, 121, 56, .22);
+  border-radius: 24px;
+  background: linear-gradient(155deg, rgba(255, 255, 255, .96), rgba(247, 241, 225, .94));
+  box-shadow: 0 24px 58px rgba(47, 57, 37, .13), inset 0 1px rgba(255, 255, 255, .95);
+  text-align: center;
+}
+
+.product-detail-page .product-visual-label span {
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #28523a;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.product-detail-page .product-visual-label strong {
+  color: #203d2d;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: clamp(25px, 3vw, 40px);
+  font-weight: 500;
+  line-height: 1.18;
 }
