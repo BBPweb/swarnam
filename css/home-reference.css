@@ -20,7 +20,7 @@
 }
 
 .home-reference section[class^="ref-"] h2 {
-    font-family: 'Figtree', Arial, sans-serif !important;
+    font-family: 'Gelasio', Georgia, serif !important;
     font-size: clamp(32px, 3.7vw, 54px);
     font-weight: 400;
     line-height: 1.02;
@@ -33,7 +33,7 @@ body.home-reference .sw-copy h2 {
 }
 
 .home-reference section[class^="ref-"] h3 {
-    font-family: 'Figtree', Arial, sans-serif !important;
+    font-family: 'Gelasio', Georgia, serif !important;
     letter-spacing: -.035em;
     font-size: 20px;
     font-weight: 700;
@@ -210,11 +210,11 @@ body.home-reference .sw-copy h2 {
 }
 
 .ref-food {
-    background-image: url('../images/WebGingelly.jpeg')
+    background-image: url('../images/Pantry-essentials.png')
 }
 
 .ref-home {
-    background-image: url('../images/collection-home-care-v2.png');
+    background-image: url('../images/Home-essentials.png');
     border-color: #d6ddcc
 }
 
@@ -259,7 +259,7 @@ body.home-reference .sw-copy h2 {
 }
 
 .home-reference .ref-collection h3 {
-    font-family: 'Figtree', Arial, sans-serif !important;
+    font-family: 'Gelasio', Georgia, serif !important;
     font-size: 45px;
     font-weight: 700;
     color: #183b26;
@@ -629,7 +629,7 @@ body.home-reference .sw-copy h2 {
 }
 
 .ref-footer-grid h3 {
-    font-family: 'Figtree', Arial, sans-serif !important;
+    font-family: 'Gelasio', Georgia, serif !important;
     font-size: 14px;
     letter-spacing: 0;
     font-weight: 700;
@@ -1136,7 +1136,7 @@ body.home-reference .sw-copy h2 {
 }
 
 .ref-footer .ref-footer-grid h3 {
-    font-family: 'Figtree', Arial, sans-serif !important;
+    font-family: 'Gelasio', Georgia, serif !important;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: .035em;

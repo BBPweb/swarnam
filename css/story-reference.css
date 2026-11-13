@@ -353,7 +353,7 @@
 .sr-timeline article::before {
     content: '';
     position: absolute;
-    top: 137px;
+    top: 168px;
     left: 0;
     right: 0;
     border-top: 1px dashed #c8a05e
@@ -363,7 +363,7 @@
     content: '';
     position: absolute;
     right: -5px;
-    top: 133px;
+    top: 163px;
     width: 9px;
     height: 9px;
     background: #be8e28;

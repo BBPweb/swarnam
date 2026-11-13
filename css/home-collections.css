@@ -1,5 +1,5 @@
 /* Homepage collections — cream, botanical panels and natural product imagery. */
-.page-home h1,.page-home h2,.page-home h3,.page-home h4,.page-home h5,.page-home h6,.page-home .display,.page-home .display-italic{font-family:"Figtree",sans-serif!important}
+.page-home h1,.page-home h2,.page-home h3,.page-home h4,.page-home h5,.page-home h6,.page-home .display,.page-home .display-italic{font-family:"Gelasio",Georgia,serif!important}
 .sw-collections{padding:clamp(48px,4.2vw,80px) clamp(20px,3vw,58px) clamp(56px,4.2vw,80px);background:radial-gradient(ellipse at 50% 30%,#fffdf8 0%,#faf6ed 75%);color:#09271d}
 .sw-collections__inner{max-width:1800px;margin:auto}
 .sw-collections__heading{text-align:center;margin:0 auto clamp(28px,2vw,40px)}
