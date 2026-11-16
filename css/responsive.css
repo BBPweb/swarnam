@@ -1,0 +1,133 @@
+/* Shared responsive refinements. Loaded after each page's component styles. */
+img, video, iframe { max-width: 100%; }
+main, section, .container, .field { min-width: 0; }
+:is(.ref-wrap, .sr-wrap, .container) > *,
+:is(.ref-footer-grid, .sr-values-grid, .sw-partners__grid, .form-row) > * {
+  min-width: 0;
+}
+:is(h1, h2, h3, p, a, blockquote) { overflow-wrap: break-word; }
+
+@media (max-width: 1000px) and (min-width: 801px) {
+  .nav-inner { gap: 12px; }
+  .nav-links { gap: 14px; }
+  .nav-inner > .nav-logo { max-width: 150px; }
+  .nav-cta { padding: 10px 14px; white-space: nowrap; }
+}
+
+@media (max-width: 800px) {
+  .nav-inner { position: relative; min-height: 76px; padding-block: 8px; }
+  .nav-inner > .nav-logo { width: 150px; max-width: calc(100% - 64px); margin: 0; }
+  .nav-logo img { width: 100%; height: auto; margin: 0; }
+  .mobile-menu-toggle { flex-shrink: 0; width: 44px; height: 44px; }
+  .nav-links {
+    max-height: calc(100vh - 76px);
+    max-height: calc(100dvh - 76px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 12px 20px 20px;
+  }
+  .nav-links > li { width: 100%; }
+  .nav-dropdown-menu { max-height: none; }
+  .nav-links a { min-height: 44px; }
+  .field input, .field select, .field textarea {
+    width: 100%; min-width: 0; max-width: 100%; font-size: 16px;
+  }
+  .field textarea { resize: vertical; }
+  .cert-row, .sw-detail-cta { flex-wrap: wrap; }
+}
+
+@media (max-width: 760px) {
+  /* Keep long copy and cards readable at intermediate tablet widths too. */
+  .sr-company-grid, .sr-values-grid { grid-template-columns: minmax(0, 1fr); }
+  .ref-benefits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ref-benefits > div { min-width: 0; }
+  .ref-footer .ref-footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ref-footer .ref-footer-brand, .ref-footer .ref-contact { grid-column: 1 / -1; }
+  .ref-footer .ref-contact { border: 0; padding-left: 0; }
+  .ref-footer .ref-footer-bottom { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 600px) {
+  :root { --gutter: 20px; }
+  .section-head, .featured-grid, .pillars-grid { grid-template-columns: minmax(0, 1fr); }
+  .section-head { gap: 20px; }
+  h2.storyhead { font-size: clamp(30px, 8vw, 42px); line-height: 1.15; }
+  .sw-products-hero h1 { font-size: clamp(34px, 9vw, 48px); }
+  .sw-product-toolbar { align-items: flex-start; flex-direction: column; gap: 18px; }
+  .sw-product-tabs { gap: 8px; }
+  .sw-product-tabs button { padding: 12px 16px; min-height: 44px; }
+  .sw-v4-button, .sr-button, .ref-button, .btn { max-width: 100%; white-space: normal; text-align: center; }
+  .sw-v4-hero h1 { font-size: clamp(32px, 9vw, 48px); }
+  .sw-v4-crumb { overflow-wrap: anywhere; }
+
+  /* The contact form is nested in another container; use one gutter only. */
+  #page-contact > section { padding-top: 40px !important; }
+  #page-contact .contact-section { padding: 32px 0 40px; }
+  #page-contact .contact-section > .container { padding: 0; }
+  #page-contact .contact-section h2 { font-size: clamp(28px, 7.5vw, 38px); }
+  #page-contact .contact-details-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 16px !important; }
+  #page-contact .contact-details-grid > div { padding: 24px !important; overflow-wrap: anywhere; }
+  .form-row { grid-template-columns: minmax(0, 1fr); gap: 20px; margin-top: 24px; }
+  .field.full { grid-column: auto; }
+  .contact-form .btn { width: 100%; justify-content: center; min-height: 48px; }
+
+  /* Give each timeline entry its own row on phones. */
+  .sr-timeline { grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 28px; }
+  .sr-timeline article,
+  .sr-timeline article:first-child,
+  .sr-timeline article:nth-child(3),
+  .sr-timeline article:last-child { padding: 0; }
+  .sr-timeline h3 { min-height: 0; margin-bottom: 14px; }
+  .sr-timeline img { width: 190px; height: 130px; }
+  .sr-timeline p { font-size: 15px; }
+  .sr-beginning-copy blockquote { padding: 18px; gap: 12px; }
+  .story-reference section.sr-beginning { padding-block: 32px; }
+  .sr-mill-image { min-height: 260px; }
+  .sr-beginning-copy { padding: 28px 20px 0; }
+  .sr-values-grid article { gap: 16px; padding: 22px; }
+  .story-reference .sr-closing h2 { font-size: clamp(30px, 8vw, 40px) !important; }
+
+  .sw-collection__content { max-width: 100%; }
+  .sw-collection__cta { white-space: normal; max-width: 100%; }
+  .sw-partner__top { flex-wrap: wrap; }
+  .sw-partner__cta { max-width: 100%; white-space: normal; text-align: center; }
+  .ref-footer .ref-footer-links > a { min-height: 40px; padding-block: 8px; font-size: 14px; }
+  .ref-footer .ref-contact .ref-contact-line { font-size: 14px; }
+  .ref-footer-bottom nav { gap: 12px; }
+  .ref-footer-bottom nav > * { padding: 6px 12px 6px 0; font-size: 12px; }
+}
+
+@media (max-width: 420px) {
+  .home-reference section[class^="ref-"], .story-reference section { padding-inline: 20px; }
+  .story-reference section.sr-hero { padding-inline: 20px; }
+  .story-reference h1 { font-size: clamp(32px, 10vw, 42px); }
+  .story-reference h2 { font-size: clamp(28px, 8.5vw, 35px); }
+  .ref-benefits, .ref-trust-grid, .ref-principle-grid,
+  .sw-products-grid, .sw-category-tiles, .sw-catalog-grid { grid-template-columns: minmax(0, 1fr); }
+  .ref-benefits { gap: 20px; padding: 24px 20px; }
+  .ref-benefits strong { font-size: 15px; }
+  .ref-benefits p { font-size: 13px; }
+  .ref-benefits > div { padding: 0; border: 0; }
+  .ref-trust-grid img { height: 160px; }
+  .ref-principle-grid { gap: 42px; }
+  .sr-chain { align-items: flex-start; padding: 18px; gap: 12px; }
+  .sr-chain > span { flex-shrink: 0; font-size: 32px; }
+  .sr-products { height: 240px; }
+  .sw-product-card-picture { height: 220px; }
+  .sw-collection__content { padding: 20px; }
+  .sw-collection__content h3 { font-size: 36px; }
+  .sw-collection__panel { width: 85%; opacity: .95; }
+  .sw-collection__content p { font-size: 14px; }
+  .sw-copy { left: 20px; right: 20px; bottom: 90px; }
+  .sw-copy h2 { font-size: clamp(32px, 9.5vw, 40px); line-height: 1.06; }
+  .sw-copy p { font-size: 14px; line-height: 1.5; margin: 14px 0 18px; }
+  .sw-copy__cta { min-height: 44px; padding: 12px 20px; max-width: 100%; }
+  .sw-float--food { width: 55vw; right: 0; bottom: 46%; }
+  .sw-float--coconuts { width: 60vw; right: 0; }
+  .sw-float--herbs { width: 65vw; bottom: 45%; }
+}
+
+/* Keep hero text, product imagery and controls apart on landscape phones. */
+@media (max-width: 700px) and (max-height: 500px) {
+  .sw-hero { height: 740px; }
+}
