@@ -17,7 +17,8 @@
     'gingelly',
     'ricebran',
     'puttupodi',
-    'coconutoil'
+    'coconutoil',
+    'dishgold'
   ];
 
   /*

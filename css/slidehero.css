@@ -271,3 +271,17 @@ section.story.reveal.in {
         background-size: cover;
     background-position: bottom center;
 }
+/* Dish Gold campaign slide: isolate the bottle from the supplied artwork. */
+.sw-product--dishgold {
+  width: min(27vw, 420px);
+  right: 10%;
+  clip-path: polygon(59% 4.4%, 65% 7%, 64% 10%, 66% 11%, 67% 19%, 72% 20%, 77% 22%, 76% 37%, 77% 49%, 81% 68%, 81% 77%, 79% 82%, 74% 85%, 46% 85%, 40% 83%, 37% 79%, 36% 74%, 37% 67%, 41% 50%, 42% 40%, 41% 29%, 41% 23%, 45% 21%, 51% 20%, 52% 11%, 55% 10%, 54% 7%);
+}
+.sw-float--lemon { width: min(20vw, 280px); right: 4%; bottom: 12%; }
+@media (max-width: 900px) {
+  .sw-product--dishgold { width: min(34vw, 300px); right: 7%; }
+}
+@media (max-width: 700px) {
+  .sw-product--dishgold { width: clamp(160px, 48vw, 220px); margin-right: 20px; height: auto; }
+  .sw-float--lemon { width: 140px; right: 6%; top: 26%; bottom: auto; }
+}
