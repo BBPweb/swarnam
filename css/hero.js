@@ -12,6 +12,7 @@
   04 - Coconut Oil
   05 - Dish Gold
   06 - Roasted Rice Powder
+  07 - DG Essentials
   =========================================
   */
 
@@ -21,7 +22,8 @@
     'puttupodi',
     'coconutoil',
     'dishgold',
-    'roastedricepowder'
+    'roastedricepowder',
+    'dgessentials'
   ];
 
   /*

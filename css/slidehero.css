@@ -61,6 +61,31 @@ body{font-family:Arial,Helvetica,sans-serif}
   object-position: 72% center;
 }
 
+.sw-slide--dg-essentials {
+  background: #0755b3;
+}
+
+.sw-slide--dg-essentials .sw-slide__banner {
+  object-position: right center;
+}
+
+@media (max-width: 1050px) {
+  .sw-slide--dg-essentials .sw-slide__banner {
+    object-fit: contain;
+    object-position: center 25%;
+  }
+
+  .sw-slide--dg-essentials .sw-copy.sw-copy--banner {
+    left: 24px;
+    right: 24px;
+    top: auto;
+    bottom: 104px;
+    width: auto;
+    text-align: center;
+    transform: none;
+  }
+}
+
 /* cube states */
 .sw-slide.cube-out-left{
   visibility:visible;
@@ -215,7 +240,7 @@ body{font-family:Arial,Helvetica,sans-serif}
 .sw-copy__eyebrow{display:block;margin-bottom:20px;color:var(--gold2);font:700 10px/1 Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;opacity:0;transform:translateY(24px)}
 .sw-copy h2{margin:0;color:#fff;font:400 clamp(58px,6vw,104px)/.95 Georgia,"Times New Roman",serif;letter-spacing:-.05em;opacity:0;transform:translateY(38px)}
 .sw-copy h2 em{display:block;color:var(--gold2);font-weight:400}
-.sw-copy.sw-copy--rice-powder h2{font-size:clamp(36px,4.4vw,72px);line-height:1.04;letter-spacing:-.025em}
+.sw-copy.sw-copy--banner h2{font-size:clamp(36px,4.4vw,72px);line-height:1.04;letter-spacing:-.025em}
 .sw-copy p{max-width:470px;margin:25px 0 27px;color:rgba(255,255,255,.78);font:14px/1.75 Arial,sans-serif;opacity:0;transform:translateY(24px)}
 .sw-copy__cta{display:inline-flex;align-items:center;gap:15px;padding:7px 8px 7px 20px;border:none;border-radius:40px;color:#fff;text-decoration:none;font-size:14px;font-weight:700;letter-spacing:.04em;background:#0c9048;backdrop-filter:blur(10px);opacity:0;transform:translateY(20px)}
 /*.sw-copy__cta span{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--gold);font-size:17px}*/
@@ -261,7 +286,7 @@ body{font-family:Arial,Helvetica,sans-serif}
   .sw-slide__shade--light{background:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,248,233,.15) 38%,rgba(255,248,233,.9) 66%,rgba(255,248,233,1) 100%)}
   .sw-copy{left:24px;right:24px;top:auto;bottom:104px;width:auto;transform:none}
   .sw-copy h2{font-size:clamp(40px,11vw,55px)}
-  .sw-copy.sw-copy--rice-powder h2{font-size:clamp(28px,7.5vw,46px)}
+  .sw-copy.sw-copy--banner h2{font-size:clamp(28px,7.5vw,46px)}
   .sw-copy p{font-size:12px;line-height:1.55;margin:18px 0 20px}
   .sw-copy__eyebrow{font-size:8px;letter-spacing:.15em;margin-bottom:14px}
   .sw-product{top:30%;right:50%!important;transform:translate(50%,-50%)!important}
