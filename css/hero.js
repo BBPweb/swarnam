@@ -10,6 +10,8 @@
   02 - Rice Bran Oil
   03 - Puttu Podi
   04 - Coconut Oil
+  05 - Dish Gold
+  06 - Roasted Rice Powder
   =========================================
   */
 
@@ -18,7 +20,8 @@
     'ricebran',
     'puttupodi',
     'coconutoil',
-    'dishgold'
+    'dishgold',
+    'roastedricepowder'
   ];
 
   /*
