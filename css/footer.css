@@ -23,7 +23,7 @@ footer.ref-footer{padding:36px max(6%,24px) 18px;background:#212121;border-top:1
 .ref-footer .ref-contact .ref-contact-line{display:flex;align-items:center;gap:9px;font-size:15px;line-height:1.5;color:#f7f5f0;text-decoration:none;margin:0 0 12px;overflow-wrap:anywhere}
 .ref-contact-line svg{width:14px;height:14px;flex-shrink:0;color:#f7f5f0}
 .ref-socials{display:flex;align-items:center;gap:14px;margin-top:16px}
-.ref-socials>span{display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#fff;border:1px solid #eeeee7;box-shadow:0 2px 5px #1c30120a}
+.ref-socials>a{display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#fff;border:1px solid #eeeee7;box-shadow:0 2px 5px #1c30120a}
 .ref-socials svg{width:16px;height:16px}
 .ref-footer .ref-footer-bottom{border-top:1px solid #777;padding-top:16px;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#f7f5f0;font-size:15px}
 .ref-footer-bottom nav{display:flex;align-items:center;gap:0;flex-wrap:wrap}

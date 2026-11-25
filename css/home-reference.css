@@ -1196,7 +1196,7 @@ body.home-reference .sw-copy h2 {
     margin-top: 16px
 }
 
-.ref-socials>span {
+.ref-socials>a {
     display: grid;
     place-items: center;
     width: 23px;
