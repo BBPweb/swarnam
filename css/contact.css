@@ -1,0 +1,123 @@
+.page-contact {
+  padding-block: clamp(2rem, 5vw, 4.5rem);
+}
+
+.page-contact .contact-intro {
+  margin-bottom: clamp(1.25rem, 3vw, 2rem);
+}
+
+.page-contact .contact-intro h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  margin: 0 0 .65rem;
+}
+
+.page-contact .contact-intro p {
+  margin: 0;
+}
+
+.page-contact .contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: start;
+}
+
+.page-contact .contact-panel {
+  margin: 0;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.page-contact .contact-panel h2 {
+  margin: 0 0 1.1rem;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.page-contact .form-row {
+  margin-top: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.page-contact .field.full {
+  grid-column: 1 / -1;
+}
+
+.page-contact .field label {
+  margin-bottom: .375rem;
+}
+
+.page-contact .field :is(input, select, textarea) {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: .75rem;
+}
+
+.page-contact .field textarea {
+  resize: vertical;
+}
+
+.page-contact .contact-form button {
+  margin-top: 1rem;
+}
+
+.page-contact .contact-directory-item + .contact-directory-item {
+  margin-top: .7rem;
+  padding-top: .7rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.page-contact .contact-directory-item h3 {
+  margin: 0 0 .2rem;
+  font-size: .95rem;
+  line-height: 1.3;
+}
+
+.page-contact .contact-directory-item a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  text-decoration: underline;
+  text-underline-offset: .18em;
+  overflow-wrap: anywhere;
+}
+
+.page-contact .contact-directory-item a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-contact .contact-directory-item a[href^="mailto:"] {
+  color: #24523a;
+  text-decoration: none;
+}
+
+.page-contact .contact-directory-item a[href^="mailto:"]:is(:hover, :focus-visible) {
+  color: #163a28;
+}
+
+.page-contact .contact-directory-item p {
+  margin: .15rem 0 0;
+  font-size: .9rem;
+}
+
+.page-contact .contact-directory-item address {
+  font-style: normal;
+}
+
+@media (max-width: 800px) {
+  .page-contact .contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .page-contact .form-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
